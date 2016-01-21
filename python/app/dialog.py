@@ -32,12 +32,7 @@ class AppDialog(QtGui.QWidget):
 
         camera = picamera.PiCamera()
         try:
-            camera.start_preview()
-            
-            camera.exposure_compensation = 2
-            camera.exposure_mode = 'spotlight'
-            camera.meter_mode = 'matrix'
-            camera.image_effect = 'gpen'
+            camera.start_preview()            
             camera.capture('foo.jpg')
             time.sleep(2)
             camera.stop_preview()
