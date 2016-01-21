@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="tk_multi_infopanel">
+    <file>test.png</file>
+  </qresource>
+</RCC>
