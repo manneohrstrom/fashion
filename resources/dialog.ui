@@ -43,6 +43,10 @@
        <property name="text">
         <string>PushButton</string>
        </property>
+       <property name="icon">
+        <iconset resource="resources.qrc">
+         <normaloff>:/tk_multi_infopanel/escheresque_ste.png</normaloff>:/tk_multi_infopanel/escheresque_ste.png</iconset>
+       </property>
       </widget>
      </item>
      <item>
@@ -59,21 +63,15 @@
       </widget>
      </item>
      <item>
-      <widget class="QDial" name="dial">
-       <property name="tracking">
-        <bool>false</bool>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="minimumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
        </property>
-       <property name="invertedAppearance">
-        <bool>false</bool>
-       </property>
-       <property name="invertedControls">
-        <bool>false</bool>
-       </property>
-       <property name="wrapping">
-        <bool>true</bool>
-       </property>
-       <property name="notchesVisible">
-        <bool>true</bool>
+       <property name="text">
+        <string>PushButton</string>
        </property>
       </widget>
      </item>

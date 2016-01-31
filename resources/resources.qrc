@@ -1,5 +1,6 @@
 <RCC>
   <qresource prefix="tk_multi_infopanel">
     <file>test.png</file>
+    <file>escheresque_ste.png</file>
   </qresource>
 </RCC>

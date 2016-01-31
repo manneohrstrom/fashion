@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'dialog.ui'
 #
-# Created: Thu Jan 21 21:19:48 2016
+# Created: Sun Jan 31 19:07:18 2016
 #      by: pyside-uic 0.2.15 running on PySide 1.2.2
 #
 # WARNING! All changes made in this file will be lost!
@@ -29,20 +29,19 @@ class Ui_Dialog(object):
         self.verticalLayout.setObjectName("verticalLayout")
         self.pushButton = QtGui.QPushButton(Dialog)
         self.pushButton.setMinimumSize(QtCore.QSize(100, 100))
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap(":/tk_multi_infopanel/escheresque_ste.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pushButton.setIcon(icon)
         self.pushButton.setObjectName("pushButton")
         self.verticalLayout.addWidget(self.pushButton)
         self.pushButton_2 = QtGui.QPushButton(Dialog)
         self.pushButton_2.setMinimumSize(QtCore.QSize(100, 100))
         self.pushButton_2.setObjectName("pushButton_2")
         self.verticalLayout.addWidget(self.pushButton_2)
-        self.dial = QtGui.QDial(Dialog)
-        self.dial.setTracking(False)
-        self.dial.setInvertedAppearance(False)
-        self.dial.setInvertedControls(False)
-        self.dial.setWrapping(True)
-        self.dial.setNotchesVisible(True)
-        self.dial.setObjectName("dial")
-        self.verticalLayout.addWidget(self.dial)
+        self.pushButton_4 = QtGui.QPushButton(Dialog)
+        self.pushButton_4.setMinimumSize(QtCore.QSize(100, 100))
+        self.pushButton_4.setObjectName("pushButton_4")
+        self.verticalLayout.addWidget(self.pushButton_4)
         self.pushButton_3 = QtGui.QPushButton(Dialog)
         self.pushButton_3.setMinimumSize(QtCore.QSize(100, 100))
         self.pushButton_3.setObjectName("pushButton_3")
@@ -56,6 +55,7 @@ class Ui_Dialog(object):
         Dialog.setWindowTitle(QtGui.QApplication.translate("Dialog", "Fashion Engine", None, QtGui.QApplication.UnicodeUTF8))
         self.pushButton.setText(QtGui.QApplication.translate("Dialog", "PushButton", None, QtGui.QApplication.UnicodeUTF8))
         self.pushButton_2.setText(QtGui.QApplication.translate("Dialog", "PushButton", None, QtGui.QApplication.UnicodeUTF8))
+        self.pushButton_4.setText(QtGui.QApplication.translate("Dialog", "PushButton", None, QtGui.QApplication.UnicodeUTF8))
         self.pushButton_3.setText(QtGui.QApplication.translate("Dialog", "PushButton", None, QtGui.QApplication.UnicodeUTF8))
 
 from . import resources_rc

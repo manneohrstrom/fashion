@@ -16,16 +16,39 @@ from app import AppDialog
 # set up logging channel for this script
 log = logging.getLogger("fashion")
 
+
+
 def main():
     
 
-	# Create a Qt application
-	app = QtGui.QApplication(sys.argv)
-	d = AppDialog()
-	d.showFullScreen()
-	app.setOverrideCursor(QtCore.Qt.BlankCursor)
-	# Enter Qt application main loop
-	app.exec_()
+    # Create a Qt application
+    app = QtGui.QApplication(sys.argv)
+    app.setStyle(QtGui.QStyleFactory.create('plastique'))
+
+    d = AppDialog()
+    d.resize(480, 800)    
+
+    if sys.platform != "darwin":
+        d.showFullScreen()
+        app.setOverrideCursor(QtCore.Qt.BlankCursor)
+    else:
+        d.show()
+
+    d.setStyleSheet("""
+        QPushButton { 
+            border: 4px solid red; border-radius: 10px; 
+        }
+
+        QDialog { 
+
+            background-image: url(:/tk_multi_infopanel/escheresque_ste.png);
+            background-repeat: repeat-xy;
+        }
+        
+        """)
+    
+    # Enter Qt application main loop
+    app.exec_()
 
 if __name__ == "__main__":
     log.setLevel(logging.DEBUG)
