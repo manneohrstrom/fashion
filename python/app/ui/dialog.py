@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'dialog.ui'
 #
-# Created: Sun Jan 31 19:07:18 2016
+# Created: Sun Jan 31 19:41:16 2016
 #      by: pyside-uic 0.2.15 running on PySide 1.2.2
 #
 # WARNING! All changes made in this file will be lost!
@@ -29,9 +29,6 @@ class Ui_Dialog(object):
         self.verticalLayout.setObjectName("verticalLayout")
         self.pushButton = QtGui.QPushButton(Dialog)
         self.pushButton.setMinimumSize(QtCore.QSize(100, 100))
-        icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap(":/tk_multi_infopanel/escheresque_ste.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
-        self.pushButton.setIcon(icon)
         self.pushButton.setObjectName("pushButton")
         self.verticalLayout.addWidget(self.pushButton)
         self.pushButton_2 = QtGui.QPushButton(Dialog)

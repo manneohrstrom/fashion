@@ -1,6 +1,63 @@
 <RCC>
   <qresource prefix="tk_multi_infopanel">
     <file>test.png</file>
+    <file>bg/1.jpg</file>
+    <file>bg/9.jpg</file>
+    <file>bg/5.jpg</file>
+    <file>bg/4.jpg</file>
+    <file>bg/2.jpg</file>
+    <file>bg/7.jpg</file>
+    <file>bg/10.jpg</file>
+    <file>bg/3.jpg</file>
+    <file>bg/6.jpg</file>
+    <file>bg/8.jpg</file>
+    <file>bg/11.jpg</file>
+    <file>bg/49.jpg</file>
+    <file>bg/12.jpg</file>
+    <file>bg/28.jpg</file>
+    <file>bg/53.jpg</file>
+    <file>bg/41.jpg</file>
+    <file>bg/35.jpg</file>
+    <file>bg/56.jpg</file>
+    <file>bg/13.jpg</file>
+    <file>bg/36.jpg</file>
+    <file>bg/26.jpg</file>
+    <file>bg/40.jpg</file>
+    <file>bg/30.jpg</file>
+    <file>bg/18.jpg</file>
+    <file>bg/23.jpg</file>
+    <file>bg/25.jpg</file>
+    <file>bg/47.jpg</file>
+    <file>bg/43.jpg</file>
+    <file>bg/16.jpg</file>
+    <file>bg/20.jpg</file>
+    <file>bg/24.jpg</file>
+    <file>bg/17.jpg</file>
+    <file>bg/31.jpg</file>
+    <file>bg/39.jpg</file>
+    <file>bg/33.jpg</file>
+    <file>bg/19.jpg</file>
+    <file>bg/54.jpg</file>
+    <file>bg/14.jpg</file>
+    <file>bg/29.jpg</file>
+    <file>bg/52.jpg</file>
+    <file>bg/27.jpg</file>
+    <file>bg/51.jpg</file>
+    <file>bg/44.jpg</file>
+    <file>bg/38.jpg</file>
+    <file>bg/55.jpg</file>
+    <file>bg/37.jpg</file>
+    <file>bg/42.jpg</file>
+    <file>bg/22.jpg</file>
+    <file>bg/50.jpg</file>
+    <file>bg/45.jpg</file>
+    <file>bg/32.jpg</file>
+    <file>bg/15.jpg</file>
+    <file>bg/57.jpg</file>
+    <file>bg/34.jpg</file>
+    <file>bg/21.jpg</file>
+    <file>bg/48.jpg</file>
+    <file>bg/46.jpg</file>
     <file>escheresque_ste.png</file>
   </qresource>
 </RCC>

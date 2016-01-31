@@ -43,10 +43,6 @@
        <property name="text">
         <string>PushButton</string>
        </property>
-       <property name="icon">
-        <iconset resource="resources.qrc">
-         <normaloff>:/tk_multi_infopanel/escheresque_ste.png</normaloff>:/tk_multi_infopanel/escheresque_ste.png</iconset>
-       </property>
       </widget>
      </item>
      <item>

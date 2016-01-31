@@ -1,6 +1,8 @@
 from PySide import QtCore, QtGui
 from .ui.dialog import Ui_Dialog
 
+import random
+
 class AppDialog(QtGui.QDialog):
     """
     Main application dialog window. This defines the top level UI
@@ -19,7 +21,9 @@ class AppDialog(QtGui.QDialog):
         self.ui.setupUi(self)
 
 
-        self.ui.pushButton_2.clicked.connect(self.close)
+        self._background_index = 1
+
+        self.ui.pushButton_2.clicked.connect(self._change_background)
 
         self.ui.pushButton_3.clicked.connect(self._take_picture)
 
@@ -41,5 +45,20 @@ class AppDialog(QtGui.QDialog):
 
 
     def _change_background(self):
-        pass
+        
+        self._background_index = random.randint(1,57)
+
+        self.setStyleSheet("""
+            QPushButton { 
+                border: 4px solid red; border-radius: 10px; 
+            }
+
+            QDialog { 
+
+                background-image: url(:/tk_multi_infopanel/bg/%d.jpg);
+                background-repeat: repeat-xy;
+            }
+        
+        """ % self._background_index)
+
 
